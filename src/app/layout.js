@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { poppins,inter } from './font'
+import { poppins,Dmsans} from './font'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${inter.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${Dmsans.variable} antialiased`}
       >
         {children}
       </body>

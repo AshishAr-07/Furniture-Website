@@ -30,11 +30,11 @@ export default function Wedo() {
     <>
       <Wrapper>
         <h1 className='w-full text-center pb-4'>What We Made </h1>
-        <p className='w-1/2 mx-auto text-center pb-16'>We create beautifully functional pieces that elevate your space, combining quality craftsmanship with thoughtful design to last for years to come.</p>
-        <div className='grid  grid-cols-1 md:grid-cols-3 gap-4'>
+        <p className='md:w-1/2 md:mx-auto text-center pb-16'>We create beautifully functional pieces that elevate your space, combining quality craftsmanship with thoughtful design to last for years to come.</p>
+        <div className='grid  grid-cols-1 md:grid-cols-3 gap-6'>
           {featured.map((items, index) => (
-            <div key={index} className='flex flex-col '>
-              <div className='border flex justify-center items-center h-[250px] w-[400px] box-border rounded bg-[#d18c4c]'>
+            <div key={index} className='flex flex-col justify-center items-center '>
+              <div className='border flex justify-center items-center h-[250px] w-[400px] box-border rounded bg-[#d18c4c] hover:scale-75 transition-all duration-300 ease-in-out'>
                 <Image alt={items.title} width={items.width} height={items.height} src={items.src} />
               </div>
               <h2 className='pt-5 text-2xl'>{items.title}</h2>

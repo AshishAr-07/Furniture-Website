@@ -1,5 +1,5 @@
 import { Poppins } from "next/font/google";
-import { Inter } from "next/font/google";
+import { DM_Sans} from "next/font/google";
 
 export const poppins = Poppins({
   subsets: ["latin"],
@@ -7,8 +7,8 @@ export const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-export const inter = Inter({
+export const Dmsans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-DM_Sans",
 });
