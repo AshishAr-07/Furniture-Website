@@ -5,16 +5,18 @@ import Testinomial from './components/Testinomial'
 import FeaturedProduct from './components/FeaturedProduct'
 import Support from './components/Support'
 import Wedo from './components/Wedo'
+import HeroBanner from './components/HeroBanner'
 
 export default function page() {
   return (
     <>
+    <HeroBanner/>
     <AboutUs/>
+    <FeaturedProduct/>
     <Wedo/>
     <Support/>
     <Bgfixed/>
     <Testinomial/>
-    <FeaturedProduct/>
     </>
   )
 }

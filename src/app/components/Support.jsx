@@ -27,7 +27,7 @@ export default function Support() {
   
         {feature.map((items,index)=>(
             <div key={index} className='border rounded-lg shadow-lg flex gap-8 justify-center items-center py-5 '>
-            <items.icon className='hover:origin-center hover:rotate-360 ' size={45}/>
+            <items.icon size={45}/>
             <h2 className='text-center'>{items.title}</h2>
         </div>
         ))}
