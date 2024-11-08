@@ -35,7 +35,9 @@ export default function Wedo() {
           {featured.map((items, index) => (
             <div key={index} className='flex flex-col justify-center items-center '>
               <div className='border flex justify-center items-center h-[250px] w-[400px] box-border rounded bg-[#d18c4c] hover:scale-75 transition-all duration-300 ease-in-out'>
-                <Image alt={items.title} width={items.width} height={items.height} src={items.src} />
+                <Image style={{
+                  height : 'auto'
+                }} alt={items.title} width={items.width} height={items.height} src={items.src} />
               </div>
               <h2 className='pt-5 text-2xl'>{items.title}</h2>
             </div>

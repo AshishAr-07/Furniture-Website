@@ -8,9 +8,9 @@ export default function Bgfixed() {
     <>
       <div className="relative py-12">
         {/* Background with fixed positioning */}
-        <div className='md:bg-[url("/fxdbg.webp")] bg-fixed relative bg-cover bg-center'>
+        <div className='bg-[url("/fxdbg.webp")] bg-fixed relative bg-cover bg-center'>
           {/* Black overlay */}
-          <div className="absolute inset-0 bg-black md:bg-black/50"></div>
+          <div className="absolute inset-0  bg-black/50"></div>
           
           {/* Content */}
           <div className="relative z-10">
@@ -20,31 +20,31 @@ export default function Bgfixed() {
                   <h1 className='text-white '>
                     Elevate Your Home with Quality Furniture.
                   </h1>
-                  <Button className='flex items-center gap-2 text-xl bg-transparent text-white border-white'>Contact Now<GoPlus color='white' /></Button>
+                  <Button className='flex items-center gap-2 mt-8 text-xl bg-transparent text-white border-white'>Contact Now<GoPlus color='white' /></Button>
                 </section>
                 <section >
                <form className='bg-white border rounded-lg border-gray-200 md:mb-[-150px]  py-8 md:px-16 px-8'   >
                 <h1 className='pb-8'>Get a Quote</h1>
                 <div className='flex flex-col pb-4 gap-2'>
-                <label className='text-2xl '>
+                <label className='text-xl '>
                   Name
                 </label>
                 <input className='border rounded-lg border-gray-200 py-2 ' />
                 </div>
                 <div className='flex flex-col pb-4 gap-2'>
-                <label className='text-2xl'>
+                <label className='text-xl'>
                   Email
                 </label>
                 <input className='border rounded-lg border-gray-200 py-2 ' />
                 </div>
                 <div className='flex flex-col pb-4 gap-2'>
-                <label className='text-2xl'>
+                <label className='text-xl'>
                  Phone
                 </label>
                 <input className='border rounded-lg border-gray-200 py-2 ' />
                 </div>
                 <div className='flex flex-col pb-4 gap-2'>
-                <label className='text-2xl'>
+                <label className='text-xl'>
                   Message
                 </label>
                 <textarea className='border rounded-lg border-gray-200' rows={6} />

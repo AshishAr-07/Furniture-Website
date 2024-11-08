@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { poppins,Dmsans} from './font'
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,8 +25,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${Dmsans.variable} antialiased`}
-      >
+      ><Header/>
         {children}
+        <div className="py-8"></div>
         <Footer/>
       </body>
     </html>
