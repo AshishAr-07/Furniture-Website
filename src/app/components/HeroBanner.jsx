@@ -14,7 +14,7 @@ export default function HeroBanner() {
       
       {/* Content */}
       <div className="relative z-10  text-center px-4">
-        <h1 className='text-white mb-3 text-3xl' >Furni Furniture</h1>
+        <h1 className='text-white mb-3 text-3xl' >Woody Furniture</h1>
         <h1 className="md:w-3/4 md:mx-auto text-4xl md:text-6xl font-bold text-white mb-6">
           Elevate Your Home with Quality Furniture
         </h1>
