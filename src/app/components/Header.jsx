@@ -19,10 +19,10 @@ const handleClick = useCallback(()=> setIsMenuOpen(prev => !prev) ,[isMenuOpen])
         </div>
         <nav className='md:flex hidden'>
             <ul className='flex  text-lg gap-5'>
-<Link href="#" ><li>Home </li></Link>
-<Link href="#" ><li>About </li></Link>
-<Link href="#" ><li>Product </li></Link>
-<Link href="#" ><li>Contact </li></Link>
+<Link href="/" ><li>Home </li></Link>
+<Link href="/about" ><li>About </li></Link>
+<Link href="/product" ><li>Product </li></Link>
+<Link href="/contact" ><li>Contact </li></Link>
             </ul>
         </nav>
     
@@ -37,10 +37,10 @@ const handleClick = useCallback(()=> setIsMenuOpen(prev => !prev) ,[isMenuOpen])
     <div className='absolute w-full  bg-gray-100'>
 <Wrapper className='py-4'>
 <ul className= 'flex flex-col text-lg gap-5'>
-<Link href="#" ><li>Home </li></Link>
-<Link href="#" ><li>About </li></Link>
-<Link href="#" ><li>Product </li></Link>
-<Link href="#" ><li>Contact </li></Link>
+<Link href="/" ><li>Home </li></Link>
+<Link href="/about" ><li>About </li></Link>
+<Link href="/product" ><li>Product </li></Link>
+<Link href="/contact" ><li>Contact </li></Link>
     </ul>
 </Wrapper>
     </div>
