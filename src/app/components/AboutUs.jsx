@@ -1,7 +1,9 @@
+'use client'
 import React from 'react'
 import Wrapper from './Wrapper'
 import Image from 'next/image'
 import Button from './Button'
+import { motion } from 'framer-motion'
 
 export default function AboutUs() {
     return (
@@ -30,7 +32,8 @@ export default function AboutUs() {
                             />
                         </div>
                     </section>
-                    <section>
+                    <section 
+                   >
                         <h2 className='pb-2'>About Us</h2>
                         <h1>Furniture That Feels Like Home.</h1>
                         <p className='pt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ducimus, reprehenderit veniam dolores ullam unde, voluptatum accusamus voluptatem inventore iure ipsam distinctio error delectus esse obcaecati impedit similique dolorem nobis.</p><br/>

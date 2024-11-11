@@ -13,7 +13,7 @@ export default function page() {
     <>
    <HeroBanner/>
    <AboutUs/>
-   <FeaturedProduct activepage='homepage'/>
+   <FeaturedProduct />
    <Wedo/>
    <Support/>
    <Bgfixed/>

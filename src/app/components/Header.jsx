@@ -8,7 +8,7 @@ import { RxHamburgerMenu,RxCross2  } from "react-icons/rx";
 export default function Header() {
     const [isMenuOpen ,setIsMenuOpen] =useState(false)
 
-const handleClick = useCallback(()=> setIsMenuOpen(prev => !prev) ,[isMenuOpen])
+const handleClick = useCallback(()=> setIsMenuOpen(prev => !prev) ,[])
 
   return (
     <header className='w-full sticky top-0 left-0 right-0 z-50 bg-gray-100'>
