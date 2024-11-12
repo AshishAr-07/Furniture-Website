@@ -17,10 +17,10 @@ export default function Footer() {
   </section>
   <section className='flex flex-col gap-2'>
     <h1 className='text-2xl pb-2 font-medium '>Quick Links</h1>
-    <Link href='#' ><h2>Home</h2></Link>
-    <Link href='#' ><h2>About</h2></Link>
-    <Link href='#' ><h2>Service</h2></Link>
-    <Link href='#' ><h2>Contact</h2></Link>
+    <Link href='/' ><h2>Home</h2></Link>
+    <Link href='/about' ><h2>About</h2></Link>
+    <Link href='/product' ><h2>Product</h2></Link>
+    <Link href='/contact' ><h2>Contact</h2></Link>
   </section>
   <section className='flex flex-col gap-4'>
     <h1 className='text-2xl pb-2 font-medium '>Contact Details</h1>
