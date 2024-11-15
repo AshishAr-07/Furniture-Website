@@ -17,7 +17,8 @@ export default function AllProduct({activepage = "product"}) {
     <h1 className='w-full text-center pb-8'>{activepage === "homepage" ? "Featured Products" : "All Products"} </h1>
 <div className='grid grid-cols-1 md:grid-cols-4 gap-6'>
 { FeaturedProduct.map((items,index)=>(
-    <div key={index} className='flex flex-col '>
+    <Link key={index} href='/product/slug'>
+    <div  className='flex flex-col '>
        <motion.div 
        whileHover={{ scale: 1.1 }}
        transition={{duration : 0.5}}
@@ -29,7 +30,7 @@ export default function AllProduct({activepage = "product"}) {
         <h2 className='pt-2 px-4'>₹{items.price}</h2>
         
 
-    </div>
+    </div></Link>
 ))}
 </div>
 {activepage==="homepage" &&

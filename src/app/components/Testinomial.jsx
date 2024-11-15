@@ -10,11 +10,11 @@ const client = [
         des: "I really want to thank you and your whole team from the bottom of my heart for making my wedding more than a dream.Every single person at the wedding was in awe of the decoration. You all managed everything so beautifully."
     },
     {
-        name: "Navya",
+        name: "Himesh",
         des: "I really want to thank you and your whole team from the bottom of my heart for making my wedding more than a dream.Every single person at the wedding was in awe of the decoration. You all managed everything so beautifully."
     },
     {
-        name: "Ritesh",
+        name: "Himesh",
         des: "I really want to thank you and your whole team from the bottom of my heart for making my wedding more than a dream.Every single person at the wedding was in awe of the decoration. You all managed everything so beautifully."
     },
 ]
